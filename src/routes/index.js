@@ -10,7 +10,7 @@ import { useApollo } from '../utils/apollo-client'
 
 export const AppRouter = () => {
   const [keycloak, initialized] = useKeycloak()
-  const client = useApollo('https://gtw.flowqount.com/graphql');
+  const client = useApollo(process.env.REACT_APP_GRAPHQL_URI);
 
   if (!initialized) {
     (keycloak.token) && localStorage.setItem('token',keycloak.token)
