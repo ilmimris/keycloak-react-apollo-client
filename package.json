@@ -4,7 +4,7 @@
     "@react-keycloak/web": "^2.1.1",
     "and": "^0.0.3",
     "apollo-boost": "^0.4.9",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "graphql": "^15.1.0",
     "keycloak-js": "^10.0.2",
     "react": "^16.13.1",
